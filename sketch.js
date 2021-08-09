@@ -210,7 +210,7 @@ function spawnObstacles(){
 
 function spawnClouds() {
   //write code here to spawn the clouds
-  if (camera.position.x % 200 === 0) {
+  if (camera.position.x % 350 === 0) {
     var cloud = createSprite(600,120,40,10);
     cloud.x=camera.position.x+displayWidth/2;
     cloud.y = Math.round(random(50,90));
